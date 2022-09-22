@@ -12,7 +12,7 @@ public class Horse {
         } else if (name.isBlank()) {
             throw new IllegalArgumentException("Name cannot be blank.");
         }
-        if (speed < 0) {
+        if (speed < -0) {
             throw new IllegalArgumentException("Speed cannot be negative.");
         }
         if (distance < 0) {

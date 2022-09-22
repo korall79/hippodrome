@@ -24,6 +24,7 @@ public class Hippodrome {
 
     public void move() {
         horses.forEach(Horse::move);
+
     }
 
     public Horse getWinner() {
