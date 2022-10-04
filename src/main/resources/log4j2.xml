@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration status="ERROR">
+    <Appenders>
+        <RollingFile name = "LogToFile" file name="logs/hippodrome.log"
+
+
+    </Appenders>
+
+</configuration>
